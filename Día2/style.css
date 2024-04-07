@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0%;
+    background-color: #E9E7DA;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background-color: #a6bba8;
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+
+.name .content .p1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.name .content .p2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-top: auto;
+}
