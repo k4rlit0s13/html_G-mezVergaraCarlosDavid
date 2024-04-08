@@ -31,8 +31,36 @@
       }
     ];
 
+    const tableBody = document.getElementById("data-table");
 
-   
+    for (const person of jsonData) {
+      const tr = document.createElement("tr");
+      const nameTd = document.createElement("td");
+      nameTd.textContent = person.name;
+      const emailTd = document.createElement("td");
+      emailTd.textContent = person.email;
+      const ageTd = document.createElement("td");
+      ageTd.textContent = person.age;
+      const phoneTd = document.createElement("td");
+      phoneTd.textContent = person.phone;
+      const addressTd = document.createElement("td");
+      addressTd.textContent = person.address;
+      const companyTd = document.createElement("td");
+      companyTd.textContent = person.company;
+      const genderTd = document.createElement("td");
+      genderTd.textContent = person.gender;
+      const fruitTd = document.createElement("td");
+      fruitTd.textContent = person.favoriteFruit;
+      tr.appendChild(nameTd);
+      tr.appendChild(emailTd);
+      tr.appendChild(ageTd);
+      tr.appendChild(phoneTd);
+      tr.appendChild(addressTd);
+      tr.appendChild(companyTd);
+      tr.appendChild(genderTd);
+      tr.appendChild(fruitTd);
+      tableBody.appendChild(tr);
+    }
   </script>
 </body>
 </html>
