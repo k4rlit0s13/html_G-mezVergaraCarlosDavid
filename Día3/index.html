@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css"> <title>Data Table</title>
+  <link rel="stylesheet" href="style.css"> 
+  <title>Data Table</title>
 </head>
 <body>
   <center>
@@ -19,6 +20,10 @@
           <th>Company</th>
           <th>Gender</th>
           <th>Favorite Fruit</th>
+          <th>Registered</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Eye Color</th>
         </tr>
       </thead>
       <tbody id="data-table"></tbody>
@@ -35,7 +40,12 @@
         "address": "734 Times Placez, Coyote, Arkansas, 2908",
         "company": "UNIWORLD",
         "gender": "male",
-        "favoriteFruit": "banana"
+        "favoriteFruit": "banana",
+        "registered": "2020-04-08T01:20:04 +05:00",
+        "latitude": -3.925674,
+        "longitude": -88.910095,
+        "eyeColor": "green",
+
       },
       {
         "name": "Dionne Aguilar",
@@ -45,7 +55,11 @@
         "address": "839 Canarsie Road, Sena, Washington, 5390",
         "company": "TROPOLIS",
         "gender": "female",
-        "favoriteFruit": "strawberry"
+        "favoriteFruit": "strawberry",
+        "registered": "2017-12-01T02:48:31 +05:00",
+        "latitude": -10.478908,
+        "longitude": 99.512436,    
+        "eyeColor": "brown",            
       }
     ];
 
@@ -69,6 +83,14 @@
       genderTd.textContent = person.gender;
       const fruitTd = document.createElement("td");
       fruitTd.textContent = person.favoriteFruit;
+      const registeredTd = document.createElement("td");
+      registeredTd.textContent = person.registered;
+      const latitudeTd = document.createElement("td");
+      latitudeTd.textContent = person.latitude;
+      const longitudeTd = document.createElement("td");
+      longitudeTd.textContent = person.longitude;
+      const eyeColorTd = document.createElement("td");
+      eyeColorTd.textContent = person.eyeColor;
       tr.appendChild(nameTd);
       tr.appendChild(emailTd);
       tr.appendChild(ageTd);
@@ -77,6 +99,10 @@
       tr.appendChild(companyTd);
       tr.appendChild(genderTd);
       tr.appendChild(fruitTd);
+      tr.appendChild(registeredTd);
+      tr.appendChild(latitudeTd);
+      tr.appendChild(longitudeTd);
+      tr.appendChild(eyeColorTd);
       tableBody.appendChild(tr);
     }
   </script>
