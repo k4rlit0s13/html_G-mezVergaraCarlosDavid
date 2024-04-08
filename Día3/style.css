@@ -1,11 +1,18 @@
 body{
     background-color: rgb(198, 228, 231);
+    margin-top: 10%;
+}
+
+.titulo{
+    color: #277c67;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 table {
     border-collapse: collapse;
     width: 600px;
     margin: 0 auto;
+
   }
   
   th, td {
@@ -17,6 +24,7 @@ table {
   th {
     background-color: #88beb3;
     font-weight: bold;
+    color: #1a5042; /* Color del texto de las cabeceras */
   }
   
   /* Cambia el color de fondo de todas las filas a blanco */
