@@ -25,11 +25,13 @@ table {
     background-color: #88beb3;
     font-weight: bold;
     color: #1a5042; /* Color del texto de las cabeceras */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   /* Cambia el color de fondo de todas las filas a blanco */
   tr {
     background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   tr:nth-child(even) {
