@@ -2,3 +2,29 @@ body{
     background-color: rgb(198, 228, 231);
 }
 
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #207a762d;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #88beb3;
+    font-weight: bold;
+  }
+  
+  /* Cambia el color de fondo de todas las filas a blanco */
+  tr {
+    background-color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    /* Elimina el color de fondo de las filas pares */
+    background-color: #ffffff;
+  }
