@@ -15,6 +15,8 @@ body{
     gap: 2vi;
     background-color: black;
     grid-template-columns: auto auto;
+
+    
   }
 
 
@@ -176,4 +178,54 @@ body{
   grid-row: 4/6;
   width: 37.5vi;
   height: 11.5vi;
+}
+
+.container3{
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  display: grid;
+  margin: 4vi;
+  padding: 10vi;
+  gap: 2vi;
+  background-color: black;
+  grid-template-columns: auto auto;
+  justify-items: stretch;
+}
+
+.image17{
+  border: 2px solid red;
+  border-radius: 10px; 
+  width: 35vi;
+  height: 20vi;
+}
+.image18{
+  /* border: 2px solid red; */
+  border-radius: 10px; 
+  width: 35vi;
+  height: 20vi;
+}
+.image19{
+  border: 2px solid red;
+  border-radius: 10px; 
+  width: 35vi;
+  height: 20vi;
+}
+.image20{
+  border: 2px solid red;
+  border-radius: 10px; 
+  width: 35vi;
+  height: 20vi;
+}
+.image21{
+  border: 2px solid red;
+  background-color:#1B191B;
+  border-radius: 10px; 
+  width: 35vi;
+  height: 40vi;
+}
+.image22{
+  border: 2px solid red;
+  border-radius: 10px; 
+  width: 35vi;
+  height: 40vi;
 }
