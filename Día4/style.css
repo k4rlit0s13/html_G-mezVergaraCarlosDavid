@@ -7,7 +7,7 @@ body{
 
 
 .container {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 10px;
     display: grid;
     margin: 3vi;
@@ -19,35 +19,73 @@ body{
 
 
 .image1{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   background-color: #151315;
   border-radius: 10px;
   height: 29.5vi;  
-  width: 45vi;
+  width: 40vi;
 }
 
 .image2{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   background-color: #151315;
   border-radius: 10px;
   height: 29.5vi;  
-  width: 45vi;
+  width: 40vi;
 }
 
 .image3{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   border-radius: 10px;
   grid-column: 2/3;
   grid-row: 1/3;
   height: 61.4vi;  
-  width: 40vi;
+  width: 43vi;
 }
 
 .image4{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   border-radius: 10px;
   grid-column: 1; 
   grid-row: 3/5;
   height: 55vi;  
+  width: 40vi;
+}
+
+.image5{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #151315;
+  height: 55vi;  
+  width: 43vi;
+  
+}
+
+
+
+.container2{
+  border: 2px solid red;
+  border-radius: 10px;
+  display: grid;
+  margin: 3vi;
+  padding: 3vi;
+  gap: 2vi;
+  background-color: black;
+  grid-template-columns: auto auto;
+}
+
+.image6{
+  border: 2px solid red;
+  background-color: #151315;
+  border-radius: 10px;
+  height: 10vi;  
+  width: 40vi;
+}
+
+.image7{
+  border: 2px solid red;
+  background-color: #151315;
+  border-radius: 10px;
+  height: 10vi;  
   width: 40vi;
 }
