@@ -6,16 +6,13 @@ body{
 }
 
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 250px;
-    grid-gap: 20px;
-    padding: 100px 0;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.image-1, .image-2, .image-3 {
+width: 50%;
+height: 50%;
 }
-
-
-
 
