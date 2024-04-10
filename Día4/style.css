@@ -1,20 +1,21 @@
+
+
+
 body{
     background-color:rgba(11, 16, 32, 0.822);
 }
 
-.contenedor{
-margin: 0 auto;
-padding-left: 40px;
-padding-right: 40px;
-max-width: 1440px;
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 100px 0;
 }
 
-.imagenesIzquierda{
-  display:flex;
-  flex: 1 0 50%;
-  flex-direction: column;
-}
 
-.imagenesDerecha{
-flex: 1 0 50%;
-}
+
+
